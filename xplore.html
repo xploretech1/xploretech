@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Xplore Tech</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #ffffff6a;
+    padding: 0px;
+    margin: 0px;
+
+  }
+  
+  /* Header */
+  header {
+	background-color: #0084ff;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	line-height: 0.5;
+	height: 66px;
+	
+  }
+  
+  header h1 {
+	font-size: 36px;
+	margin: 0;
+  }
+  
+  nav ul {
+	list-style: none;
+	display: flex;
+	font-size: 20px;
+	
+  }
+ 
+  nav a {
+	color: #fff;
+	text-decoration: none;
+	padding-left: 20px;
+	
+  }
+  nav ul li a:hover {
+	color:rgb(0, 0, 0);
+  }
+  /* Main */
+  main {
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+  }
+  div {
+	background-color: rgba(0, 221, 255, 0.1);
+	padding: 10px;
+}
+div h2 {
+	text-align: center;
+	color: red;
+}
+div p {
+	text-align: center;
+	color: rgb(18, 1, 5);
+}
+
+  section {
+	flex: 1;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+  }
+  
+  section:last-child {
+	margin-right: 0;
+  }
+  
+  section h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  article {
+	margin-bottom: 20px;
+  }
+  
+  article h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+  }
+  
+  article p {
+	margin-bottom: 10px;
+  }
+ article img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+ }
+  article a {
+	
+	margin-top: 10px;
+	color: #f6f2f2;
+	text-decoration: none;
+	padding: 8px;
+	background-color: rgba(0, 0, 0, 0.958);
+  }
+  
+  article a:hover {
+	color: #007bff;
+  }
+  .recent-posts {
+  margin-top: 30px;
+}
+
+.recent-posts h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.recent-posts ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.recent-posts li {
+  margin-bottom: 20px;
+}
+
+.recent-posts a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+.recent-posts h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.recent-posts p {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+}
+
+
+  /* Footer */
+  footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 768px) {
+	header {
+	  flex-direction: column;
+	  align-items: flex-start;
+	}
+  
+	nav {
+	  margin-top: 20px;
+	}
+  
+	main {
+	  flex-direction: column;
+	}
+  
+	section {
+	  margin-right: 0;
+	}
+  }
+  
+	</style>
+</head>
+<body>
+	<header>
+		
+		<h1><span style="color: rgba(255, 255, 0, 0.961);">Xplore</span>Tech</h1>
+
+		<nav>
+			<ul>
+				<li><a href="#">&nbsp &nbsp &nbsp Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Catogries</a></li>
+			</ul>
+		</nav>
+	</header>
+	<body>
+	<main>
+		<section>
+		<div>
+			<h2>Notice</h2>
+			<p><big>This Website is under development</big></p>
+		</div>
+			<h2>Trending Topic</h2>
+			<article>
+				<h3>What is HTML? Introduction of HTML</h3>
+				<h4>March 30, 2023 by Rajeshwar Singh</h4>
+				<img src="https://www.freecodecamp.org/news/content/images/2021/08/html.png" alt="Random" height="200px">
+				<p><big>HTML stands for Hypertext Markup Language. It is a markup language used to create and design web pages. HTML code is written in plain text and consists of various elements that are used to structure content on a web page, such as headings, paragraphs, links, images, and more.</big></p>
+				<a href="Article.html">Read More</a>
+			</article>
+			<article>
+				<h3>Article Title 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel turpis scelerisque, euismod magna vitae, gravida felis. Nullam eget risus a risus elementum ultrices.</p>
+				<a href="#">Read More</a>
+			</article>
+			<article>
+				<h3>Article Title 3</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel turpis scelerisque, euismod magna vitae, gravida felis. Nullam eget risus a risus elementum ultrices.</p>
+				<a href="#">Read More</a>
+			</article>
+		</section>
+		<section>
+			<h2>Featured Posts</h2>
+			<article>
+				<h3>Article Title 4</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel turpis scelerisque, euismod magna vitae, gravida felis. Nullam eget risus a risus elementum ultrices.</p>
+				<a href="#">Read More</a>
+			</article>
+			<article>
+				<h3>Article Title 5</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel turpis scelerisque, euismod magna vitae, gravida felis. Nullam eget risus a risus elementum ultrices.</p>
+				<a href="#">Read More</a>
+			</article>
+		</section>
+		<section class="recent-posts">
+			<h2>Recent Posts</h2>
+			<ul>
+			  <li>
+				<a href="#">
+				  <h3>Post Title</h3>
+				  <p>Published on May 1, 2023</p>
+				</a>
+			  </li>
+			  <li>
+				<a href="#">
+				  <h3>Post Title</h3>
+				  <p>Published on April 27, 2023</p>
+				</a>
+			  </li>
+			  <li>
+				<a href="#">
+				  <h3>Post Title</h3>
+				  <p>Published on April 22, 2023</p>
+				</a>
+			  </li>
+			</ul>
+		  </section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Xplore Tech</p>
+	</footer>
+</body>
+</html>
